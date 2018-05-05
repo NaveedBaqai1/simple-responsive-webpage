@@ -1,0 +1,162 @@
+body{
+  color: #ffffff;
+}
+
+header {
+  min-height: 500px;
+  background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381);
+}
+
+.mainHeading{
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.mainHeading span{
+  padding-bottom: 10px;
+  border-bottom: 4px solid #ffffff;
+}
+
+.munchText {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.navbar, .navbar a {
+  color: #ffffff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.navbar, .navbar .navbar-header {
+  min-height: 50px
+}
+.navbar .navbar-header .navbar-toggle{
+  margin-top: 25px;
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.navbar .navbar-header .navbar-brand {
+  height: 50px;
+  margin: 15px 15px;
+  padding: 0px;
+  font-size: 50px;
+  line-height: 55px
+}
+
+.navbar .navbar-collapse {
+  background:rgba(0,0,0,0.5);
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a {
+  font-size: 20px;
+  margin: 15px 15px;
+  padding: 0px;
+  line-height: 25px;
+}
+
+header #headerContent{
+  margin: 5px 0px;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-collapse .navbar-nav>li>a{
+    font-size: 25px;
+    margin: 35px 15px;
+    padding: 0px;
+    line-height: 30px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  header{
+    min-height: 800px;
+  }
+
+  .mainHeading{
+    margin-bottom: 50px;
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+
+  .munchText {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+
+  .navbar, .navbar .navbar-header{
+    min-height: 100px
+  }
+
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-header .navbar-brand{
+    margin: 30px 30px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav>li>a{
+    font-size: 30px;
+    margin: 40px 15px;
+    padding: 0px;
+    line-height: 50px;
+  }
+
+  header #headerContent .{
+    margin: 15px 0px;
+  }
+
+  header #headerContent .col-md-6:last-child {
+    margin-top: 100px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .navbar, .navbar .navbar-header{
+    min-height: 100px
+  }
+
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-header .navbar-brand{
+    margin: 30px 30px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav li a{
+    font-size: 30px;
+    margin: 40px 15px;
+    padding: 0px;
+    line-height: 50px;
+  }
+
+}
