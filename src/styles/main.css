@@ -7,9 +7,43 @@ header {
   background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381);
 }
 
+.form-control{
+  min-height: 40px;
+  background:rgba(255,255,255,0.2);
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.form-control::-webkit-input-placeholder{ color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+label.error{
+  color: red;
+  margin-top: 2px;
+}
+
+.form-control{
+  resize: vertical
+}
+
+#contactSection{
+  background-color: #3A1B57;
+}
+
+#contactSection #contactForm{
+  margin: 50px 0px;
+}
+
+#contactSection #contactForm textarea{
+  min-height: 250px;
+}
+
 .mainHeading{
   margin-bottom: 30px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 4.5rem;
 }
@@ -20,8 +54,9 @@ header {
 }
 
 .munchText {
+  margin-bottom: 20px;
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 .navbar, .navbar a {
@@ -55,7 +90,7 @@ header {
 }
 
 .navbar .navbar-collapse {
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.2);
 }
 
 .navbar .navbar-collapse .navbar-nav>li>a {
@@ -68,6 +103,8 @@ header {
 header #headerContent{
   margin: 5px 0px;
 }
+
+
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
@@ -83,7 +120,7 @@ header #headerContent{
 
   .navbar .navbar-collapse .navbar-nav>li>a{
     font-size: 25px;
-    margin: 35px 15px;
+    margin: 35px 18px;
     padding: 0px;
     line-height: 30px;
   }
@@ -96,15 +133,25 @@ header #headerContent{
     min-height: 800px;
   }
 
+  section{
+    padding: 40px;
+  }
+
+  .form-control{
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+
   .mainHeading{
     margin-bottom: 50px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 5.5rem;
   }
 
   .munchText {
+    margin-bottom: 30px;
     font-size: 2rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
 
 
@@ -122,7 +169,7 @@ header #headerContent{
 
   .navbar .navbar-collapse .navbar-nav>li>a{
     font-size: 30px;
-    margin: 40px 15px;
+
     padding: 0px;
     line-height: 50px;
   }
@@ -140,6 +187,10 @@ header #headerContent{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+  .container {
+    width: 1200px;
+  }
+
   .navbar, .navbar .navbar-header{
     min-height: 100px
   }
@@ -154,7 +205,7 @@ header #headerContent{
 
   .navbar .navbar-collapse .navbar-nav li a{
     font-size: 30px;
-    margin: 40px 15px;
+
     padding: 0px;
     line-height: 50px;
   }
