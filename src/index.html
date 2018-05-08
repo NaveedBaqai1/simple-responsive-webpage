@@ -13,8 +13,11 @@
     <!-- fontawsome CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <!-- custom common CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/common.css">
+
+    <!-- custom this page CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/home.css">
 
     <title>Munch</title>
   </head>
@@ -39,7 +42,7 @@
                       <li><a href="#">About</a></li>
                       <li><a href="#">Products</a></li>
                       <li><a href="#">Nutrition</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#contactSection">Contact</a></li>
                   </ul>
               </div>
           </div>
@@ -66,7 +69,42 @@
     </header>
 
     <article>
-      <section></section>
+      <section id="productSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./asset/MunchStrawberry.png" alt="image name" class="img-responsive center-block"/>
+              <h2>Strawberry Punch</h2>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident.
+              </p>
+              <button type="button" class="btn munchBtn pink">Buy</button>
+            </div>
+            <div class="col-sm-4">
+              <img src="./asset/MunchTropical.png" alt="image name" class="img-responsive center-block"/>
+              <h2>Tropical Pinaple</h2>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident.
+              </p>
+              <button type="button" class="btn munchBtn pink">Buy</button>
+            </div>
+            <div class="col-sm-4">
+              <img src="./asset/MunchBlueberry.png" alt="image name" class="img-responsive center-block"/>
+              <h2>Blueberry Smoothie</h2>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident.
+              </p>
+              <button type="button" class="btn munchBtn pink">Buy</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="contactSection">
         <div class="container">
@@ -109,7 +147,7 @@
                                   <textarea name="message" class="form-control" placeholder="Your Message..." ></textarea>
                               </div>
                               <div class="pull-right">
-                              <input id="contactFormSubmit" type="submit" class="btn" value="Send message">
+                              <button id="contactFormSubmit" type="submit"  class="btn munchBtn white">Send</button>
                             </div>
                       </div>
                   </div>
@@ -123,12 +161,27 @@
     </article>
 
     <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="footerText">
+              2016 &copy; Munch Inc. All rights reserved.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <ul id="social-buttons">
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-medium"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- jQuery library -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js'></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js'></script>
 
     <!-- Bootstrap JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

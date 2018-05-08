@@ -1,0 +1,296 @@
+body{
+  color: #ffffff;
+}
+
+/* Common Heading and Text*/
+.mainHeading{
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.mainHeading span{
+  padding-bottom: 10px;
+  border-bottom: 4px solid #ffffff;
+}
+
+.munchText {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+/* Common Button */
+.munchBtn{
+  padding: 0.8em 0.5em;
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  -webkit-transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+  border-top: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.munchBtn.white{
+  background-color: #FFFFFF;
+  color: grey;
+}
+
+.munchBtn.pink{
+  background-color: #EE0652;
+  color: #FFFFFF;
+}
+
+/* Form */
+.form-control{
+  min-height: 40px;
+  background:rgba(255,255,255,0.2);
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+label.error{
+  color: red;
+  margin-top: 2px;
+}
+
+.form-control{
+  resize: vertical
+}
+
+/* Header */
+header {
+  min-height: 500px;
+  background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381);
+}
+
+/* Navigation */
+.navbar, .navbar a {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.navbar, .navbar .navbar-header {
+  min-height: 50px
+}
+.navbar .navbar-header .navbar-toggle{
+  margin-top: 25px;
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.navbar .navbar-header .navbar-brand {
+  height: 50px;
+  margin: 15px;
+  padding: 0px;
+  font-size: 50px;
+  line-height: 55px
+}
+
+.navbar .navbar-collapse {
+  background:rgba(0,0,0,0.2);
+}
+
+.navbar .navbar-collapse .navbar-nav>li>a {
+  font-size: 20px;
+  margin: 15px 15px;
+  padding: 0px;
+  line-height: 25px;
+}
+
+/* Section */
+section{
+  padding: 20px 0px;
+}
+
+/* Footer */
+footer{
+  min-height: 70px;
+  padding: 5px 0px;
+  background-color: #1F1422;
+  border-top: 5px solid #000000;
+  text-align: center;
+}
+
+footer .footerText{
+  font-size: 16px;
+  color: grey;
+  margin-top: 20px;
+}
+
+footer ul#social-buttons {
+  margin: 10px 0px;
+  padding: 0px;
+}
+footer #social-buttons li {
+	list-style-type:none;
+	display:inline-block;
+	border-radius:50%;
+	background:rgba(255,255,255,0.2);
+	width:3em;
+	height:3em;
+	padding:0;
+}
+
+footer #social-buttons li:not(:last-child) {
+  margin-right: 10px;
+}
+
+footer #social-buttons li i {
+	font-size:2em;
+	line-height:1.5em;
+	text-align:center;
+	color: #1F1422;
+	width:1.5em;
+}
+
+footer #social-buttons li:hover {
+	background:rgba(255,255,255,0.8);
+}
+
+footer #social-buttons li a {
+	text-decoration:none;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+  /* Navigation */
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-header .navbar-brand {
+    margin: 15px 15px 15px 0px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav>li>a{
+    font-size: 25px;
+    margin: 35px 18px;
+    padding: 0px;
+    line-height: 30px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav>li:last-child>a {
+    margin-right: 0px;
+  }
+
+  /* Footer */
+  footer .col-sm-6:first-child{
+    text-align: left;
+  }
+
+  footer .col-sm-6:last-child{
+    text-align: right;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  /* Common Heading & Text */
+  .mainHeading{
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+  }
+
+  .munchText {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  /* Header */
+  header{
+    min-height: 800px;
+  }
+
+  header #headerContent .{
+    margin: 15px 0px;
+  }
+
+  header #headerContent .col-md-6:last-child {
+    margin-top: 100px;
+  }
+
+  /* Navigation */
+  .navbar, .navbar .navbar-header{
+    min-height: 100px
+  }
+
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-header .navbar-brand{
+    margin: 30px 30px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav>li>a{
+    font-size: 30px;
+    padding: 0px;
+    line-height: 50px;
+  }
+
+  /* Section */
+  section{
+    padding: 40px 0px;
+  }
+
+  /*Form */
+  .form-control{
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  /* Bootstrap Container */
+  .container {
+    width: 1200px;
+  }
+
+  /* Navigation */
+  .navbar, .navbar .navbar-header{
+    min-height: 100px
+  }
+
+  .navbar .navbar-collapse {
+    background:rgba(0,0,0,0);
+  }
+
+  .navbar .navbar-header .navbar-brand{
+    margin: 30px 30px 30px 0px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav li a{
+    font-size: 30px;
+    padding: 0px;
+    line-height: 50px;
+  }
+
+}
