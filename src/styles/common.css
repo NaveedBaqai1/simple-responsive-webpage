@@ -1,17 +1,17 @@
-body{
-  color: #ffffff
+body {
+  background-color: #FFFFFF
 }
 
 /* Common Heading and Text*/
-.mainHeading{
+.mainHeading {
   margin-bottom: 30px;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 4.5rem
 }
-.mainHeading span{
+.mainHeading span {
   padding-bottom: 10px;
-  border-bottom: 4px solid #ffffff
+  border-bottom: 4px solid #FFFFFF
 }
 .munchText {
   margin-bottom: 20px;
@@ -20,7 +20,7 @@ body{
 }
 
 /* Common Button */
-.munchBtn{
+.munchBtn {
   padding: 0.8em 0.5em;
   display: block;
   width: 200px;
@@ -32,44 +32,45 @@ body{
   font-weight: 700;
   letter-spacing: 1.5px
 }
-.munchBtn.white{
+.munchBtn.white {
   background-color: #FFFFFF;
   color: grey
 }
-.munchBtn.pink{
+.munchBtn.pink {
   background-color: #EE0652;
   color: #FFFFFF
 }
 
 /* Form */
-.form-control{
+.form-control {
   min-height: 40px;
   background:rgba(255,255,255,0.2);
   border-color: transparent;
-  color: #ffffff
+  color: #FFFFFF
 }
 .form-control::-webkit-input-placeholder { color: white }  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { color: white }  /* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder { color: white }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { color: white }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: white }  /* Microsoft Edge */
-label.error{
+label.error {
   color: red;
   margin-top: 2px
 }
-.form-control{
+.form-control {
   resize: vertical
 }
 
 /* Header */
 header {
   min-height: 500px;
+  color: #FFFFFF;
   background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381)
 }
 
 /* Navigation */
 .navbar, .navbar a {
-  color: #ffffff;
+  color: #FFFFFF;
   letter-spacing: 1px
 }
 .nav>li>a:focus, .nav>li>a:hover {
@@ -79,13 +80,13 @@ header {
 .navbar, .navbar .navbar-header {
   min-height: 50px
 }
-.navbar .navbar-header .navbar-toggle{
+.navbar .navbar-header .navbar-toggle {
   margin-top: 25px
 }
 .navbar .navbar-header .navbar-toggle .icon-bar {
   width: 30px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #FFFFFF
 }
 .navbar .navbar-header .navbar-brand {
   height: 50px;
@@ -95,29 +96,29 @@ header {
   line-height: 55px
 }
 .navbar .navbar-collapse {
-  background:rgba(0,0,0,0.2);
+  background:rgba(0,0,0,0.2)
 }
 .navbar .navbar-collapse .navbar-nav>li>a {
   font-size: 20px;
   margin: 15px 15px;
   padding: 0px;
-  line-height: 25px;
+  line-height: 25px
 }
 
 /* Section */
-section{
+section {
   padding: 20px 0px
 }
 
 /* Footer */
-footer{
+footer {
   min-height: 70px;
   padding: 5px 0px;
   background-color: #1F1422;
   border-top: 5px solid #000000;
   text-align: center
 }
-footer .footerText{
+footer .footerText {
   font-size: 16px;
   color: grey;
   margin-top: 20px
@@ -162,7 +163,7 @@ footer #social-buttons li a {
   .navbar .navbar-header .navbar-brand {
     margin: 15px 15px 15px 0px
   }
-  .navbar .navbar-collapse .navbar-nav>li>a{
+  .navbar .navbar-collapse .navbar-nav>li>a {
     font-size: 25px;
     margin: 35px 18px;
     padding: 0px;
@@ -173,10 +174,10 @@ footer #social-buttons li a {
   }
 
   /* Footer */
-  footer .col-sm-6:first-child{
+  footer .col-sm-6:first-child {
     text-align: left
   }
-  footer .col-sm-6:last-child{
+  footer .col-sm-6:last-child {
     text-align: right
   }
 
@@ -198,10 +199,10 @@ footer #social-buttons li a {
   }
 
   /* Header */
-  header{
+  header {
     min-height: 800px
   }
-  header #headerContent .{
+  header #headerContent {
     margin: 15px 0px
   }
   header #headerContent .col-md-6:last-child {
@@ -209,28 +210,28 @@ footer #social-buttons li a {
   }
 
   /* Navigation */
-  .navbar, .navbar .navbar-header{
+  .navbar, .navbar .navbar-header {
     min-height: 100px
   }
   .navbar .navbar-collapse {
     background:rgba(0,0,0,0)
   }
-  .navbar .navbar-header .navbar-brand{
+  .navbar .navbar-header .navbar-brand {
     margin: 30px 30px
   }
-  .navbar .navbar-collapse .navbar-nav>li>a{
+  .navbar .navbar-collapse .navbar-nav>li>a {
     font-size: 30px;
     padding: 0px;
     line-height: 50px
   }
 
   /* Section */
-  section{
+  section {
     padding: 40px 0px
   }
 
   /*Form */
-  .form-control{
+  .form-control {
     padding: 10px 25px;
     font-size: 18px
   }
@@ -246,16 +247,16 @@ footer #social-buttons li a {
   }
 
   /* Navigation */
-  .navbar, .navbar .navbar-header{
+  .navbar, .navbar .navbar-header {
     min-height: 100px
   }
   .navbar .navbar-collapse {
     background:rgba(0,0,0,0)
   }
-  .navbar .navbar-header .navbar-brand{
+  .navbar .navbar-header .navbar-brand {
     margin: 30px 30px 30px 0px
   }
-  .navbar .navbar-collapse .navbar-nav li a{
+  .navbar .navbar-collapse .navbar-nav>li>a {
     font-size: 30px;
     padding: 0px;
     line-height: 50px
