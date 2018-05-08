@@ -1,5 +1,5 @@
 body{
-  color: #ffffff;
+  color: #ffffff
 }
 
 /* Common Heading and Text*/
@@ -7,18 +7,16 @@ body{
   margin-bottom: 30px;
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: 4.5rem;
+  line-height: 4.5rem
 }
-
 .mainHeading span{
   padding-bottom: 10px;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff
 }
-
 .munchText {
   margin-bottom: 20px;
   font-size: 1.5rem;
-  line-height: 2.5rem;
+  line-height: 2.5rem
 }
 
 /* Common Button */
@@ -32,17 +30,15 @@ body{
   border-top: 1px solid transparent;
   border-radius: 5px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px
 }
-
 .munchBtn.white{
   background-color: #FFFFFF;
-  color: grey;
+  color: grey
 }
-
 .munchBtn.pink{
   background-color: #EE0652;
-  color: #FFFFFF;
+  color: #FFFFFF
 }
 
 /* Form */
@@ -50,20 +46,17 @@ body{
   min-height: 40px;
   background:rgba(255,255,255,0.2);
   border-color: transparent;
-  color: #ffffff;
+  color: #ffffff
 }
-
-.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
-.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
-
+.form-control::-webkit-input-placeholder { color: white }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white }  /* Microsoft Edge */
 label.error{
   color: red;
-  margin-top: 2px;
+  margin-top: 2px
 }
-
 .form-control{
   resize: vertical
 }
@@ -71,33 +64,29 @@ label.error{
 /* Header */
 header {
   min-height: 500px;
-  background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381);
+  background-image: linear-gradient(to bottom, #ee0650, #e7005e, #de006b, #d40176, #c71381)
 }
 
 /* Navigation */
 .navbar, .navbar a {
   color: #ffffff;
-  letter-spacing: 1px;
+  letter-spacing: 1px
 }
-
 .nav>li>a:focus, .nav>li>a:hover {
   text-decoration: none;
-  background-color: transparent !important;
+  background-color: transparent !important
 }
-
 .navbar, .navbar .navbar-header {
   min-height: 50px
 }
 .navbar .navbar-header .navbar-toggle{
-  margin-top: 25px;
+  margin-top: 25px
 }
-
 .navbar .navbar-header .navbar-toggle .icon-bar {
   width: 30px;
   height: 4px;
   background-color: #ffffff;
 }
-
 .navbar .navbar-header .navbar-brand {
   height: 50px;
   margin: 15px;
@@ -105,11 +94,9 @@ header {
   font-size: 50px;
   line-height: 55px
 }
-
 .navbar .navbar-collapse {
   background:rgba(0,0,0,0.2);
 }
-
 .navbar .navbar-collapse .navbar-nav>li>a {
   font-size: 20px;
   margin: 15px 15px;
@@ -119,7 +106,7 @@ header {
 
 /* Section */
 section{
-  padding: 20px 0px;
+  padding: 20px 0px
 }
 
 /* Footer */
@@ -128,18 +115,16 @@ footer{
   padding: 5px 0px;
   background-color: #1F1422;
   border-top: 5px solid #000000;
-  text-align: center;
+  text-align: center
 }
-
 footer .footerText{
   font-size: 16px;
   color: grey;
-  margin-top: 20px;
+  margin-top: 20px
 }
-
-footer ul#social-buttons {
+footer #social-buttons {
   margin: 10px 0px;
-  padding: 0px;
+  padding: 0px
 }
 footer #social-buttons li {
 	list-style-type:none;
@@ -148,27 +133,23 @@ footer #social-buttons li {
 	background:rgba(255,255,255,0.2);
 	width:3em;
 	height:3em;
-	padding:0;
+	padding:0
 }
-
 footer #social-buttons li:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 10px
 }
-
 footer #social-buttons li i {
 	font-size:2em;
 	line-height:1.5em;
 	text-align:center;
 	color: #1F1422;
-	width:1.5em;
+	width:1.5em
 }
-
 footer #social-buttons li:hover {
-	background:rgba(255,255,255,0.8);
+	background:rgba(255,255,255,0.8)
 }
-
 footer #social-buttons li a {
-	text-decoration:none;
+	text-decoration:none
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -176,31 +157,27 @@ footer #social-buttons li a {
 
   /* Navigation */
   .navbar .navbar-collapse {
-    background:rgba(0,0,0,0);
+    background:rgba(0,0,0,0)
   }
-
   .navbar .navbar-header .navbar-brand {
-    margin: 15px 15px 15px 0px;
+    margin: 15px 15px 15px 0px
   }
-
   .navbar .navbar-collapse .navbar-nav>li>a{
     font-size: 25px;
     margin: 35px 18px;
     padding: 0px;
-    line-height: 30px;
+    line-height: 30px
   }
-
   .navbar .navbar-collapse .navbar-nav>li:last-child>a {
-    margin-right: 0px;
+    margin-right: 0px
   }
 
   /* Footer */
   footer .col-sm-6:first-child{
-    text-align: left;
+    text-align: left
   }
-
   footer .col-sm-6:last-child{
-    text-align: right;
+    text-align: right
   }
 
 }
@@ -212,56 +189,50 @@ footer #social-buttons li a {
   .mainHeading{
     margin-bottom: 50px;
     font-size: 3.5rem;
-    line-height: 5.5rem;
+    line-height: 5.5rem
   }
-
   .munchText {
     margin-bottom: 30px;
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 3rem
   }
 
   /* Header */
   header{
-    min-height: 800px;
+    min-height: 800px
   }
-
   header #headerContent .{
-    margin: 15px 0px;
+    margin: 15px 0px
   }
-
   header #headerContent .col-md-6:last-child {
-    margin-top: 100px;
+    margin-top: 100px
   }
 
   /* Navigation */
   .navbar, .navbar .navbar-header{
     min-height: 100px
   }
-
   .navbar .navbar-collapse {
-    background:rgba(0,0,0,0);
+    background:rgba(0,0,0,0)
   }
-
   .navbar .navbar-header .navbar-brand{
-    margin: 30px 30px;
+    margin: 30px 30px
   }
-
   .navbar .navbar-collapse .navbar-nav>li>a{
     font-size: 30px;
     padding: 0px;
-    line-height: 50px;
+    line-height: 50px
   }
 
   /* Section */
   section{
-    padding: 40px 0px;
+    padding: 40px 0px
   }
 
   /*Form */
   .form-control{
     padding: 10px 25px;
-    font-size: 18px;
+    font-size: 18px
   }
 
 }
@@ -271,26 +242,23 @@ footer #social-buttons li a {
 
   /* Bootstrap Container */
   .container {
-    width: 1200px;
+    width: 1200px
   }
 
   /* Navigation */
   .navbar, .navbar .navbar-header{
     min-height: 100px
   }
-
   .navbar .navbar-collapse {
-    background:rgba(0,0,0,0);
+    background:rgba(0,0,0,0)
   }
-
   .navbar .navbar-header .navbar-brand{
-    margin: 30px 30px 30px 0px;
+    margin: 30px 30px 30px 0px
   }
-
   .navbar .navbar-collapse .navbar-nav li a{
     font-size: 30px;
     padding: 0px;
-    line-height: 50px;
+    line-height: 50px
   }
 
 }

@@ -1,26 +1,26 @@
 #contactSection{
-  background-color: #3A1B57;
+  background-color: #3A1B57
 }
 
 #contactSection #contactForm{
-  margin: 50px 0px;
+  margin: 50px 0px
 }
 
 #contactSection #contactForm textarea{
   min-height: 250px;
-  max-height: 500px;
+  max-height: 500px
 }
 
 
 
 #productSection {
   background-color: #F0F0F0;
-  text-align: center;
+  text-align: center
 }
 
 #productSection h2{
   color: #F22962;
-  font-weight: bold;
+  font-weight: bold
 }
 
 #productSection p{
