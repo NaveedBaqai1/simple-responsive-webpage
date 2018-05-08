@@ -15,4 +15,4 @@
 
 * Clone this Repository.
 * Navigate to src folder.
-* Run index.html in your browser.
+* Run home.html in your browser.
