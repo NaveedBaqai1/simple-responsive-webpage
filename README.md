@@ -6,9 +6,9 @@
 
 * For responsivenes of web page, Bootstrap has been used, and CSS developed by considering the mobile first approch. 
 
-* CSS write in a way that can easily be change to SCSS or SASS in future. 
+* CSS write in a way that can easily be change to SCSS or SASS. 
 
-* Node.js is a good option for future to use in this, and transfer all CSS into  SCSS or SASS
+* Node.js is a good to be use in this project, and transfer all CSS into  SCSS or SASS
 
 
 ## To Run ## 
