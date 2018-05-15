@@ -1,8 +1,8 @@
-# we.data #
+ # we.data #
 
 * Simple responsive Web page of Munch for the given wireframe.
 
-* jQuery has been used to validate contact form. Rightnow the form shows success message if all fields are filled with data, this can be change once we use API.
+* jQuery has been used to validate contact form. Right now the form shows success message if all fields are filled with data, this can be change once we use API.
 
 * For responsivenes of web page, Bootstrap has been used, and CSS developed by considering the mobile first approch. 
 
