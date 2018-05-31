@@ -1,4 +1,4 @@
- # we.data #
+ # Follow wireframe to produce simple responsive webpage #
 
 * Simple responsive Web page of Munch for the given wireframe.
 
